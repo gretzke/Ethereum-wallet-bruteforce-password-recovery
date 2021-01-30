@@ -1,0 +1,25 @@
+{
+  "name": "ethereum-wallet-bruteforce-password-recovery",
+  "version": "1.0.0",
+  "description": "This tool helps you recover your password of an Ethereum JSON wallet file. You need to specify possible parts of your password and the tool will try out all possible combinations.",
+  "main": "recovery.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gretzke/Ethereum-wallet-bruteforce-password-recovery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gretzke/Ethereum-wallet-bruteforce-password-recovery/issues"
+  },
+  "homepage": "https://github.com/gretzke/Ethereum-wallet-bruteforce-password-recovery#readme",
+  "dependencies": {
+    "cli-progress": "^3.8.2",
+    "ethereumjs-wallet": "^1.0.1",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {}
+}
